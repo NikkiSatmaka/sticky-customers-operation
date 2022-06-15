@@ -64,3 +64,32 @@ def impute_na(data, variable, mean_value, median_value):
     data[variable+'_zero'] = data[variable].fillna(0)
 
     return data
+
+
+def impute_total_charges(data):
+    """
+    Impute missing values in a column with a value from another column
+
+    Parameters
+    ----------
+    data : pandas.DataFrame
+        Dataframe to be imputed
+
+    Returns
+    -------
+    pandas.DataFrame
+        Dataframe with imputed values
+    """
+    data['TotalCharges'] = data['TotalCharges'].fillna(data['MonthlyCharges'])
+
+    return data
+
+
+def impute_no_phone_internet(data):
+    """
+    Handle cardinality of categorical features
+    """
+    data = data.replace('No internet service', 'No')
+    data = data.replace('No phone service', 'No')
+
+    return data
