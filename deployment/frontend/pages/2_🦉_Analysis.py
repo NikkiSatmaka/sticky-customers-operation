@@ -14,7 +14,7 @@ st.set_page_config(
     menu_items={
         'Get Help': 'https://github.com/NikkiSatmaka',
         'Report a bug': 'https://github.com/NikkiSatmaka',
-        'About': '# Customer Retainer Operation',
+        'About': '# Sticky Customers Operation',
     }
 )
 

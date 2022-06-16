@@ -18,11 +18,11 @@ sub2 = "Base Services"
 sub3 = "Additional Internet Services"
 sub4 = "Contract Details"
 
-msg_0_res = "There's a huge chance that this is a loyal and satisfied customer."
+msg_0_res = "There's a huge chance that this customer will stick with us."
 msg_0_act = "That's great. Celebrate for a bit, then analyze the next customer."
 msg_0_add = "Let's toast for this small win"
-msg_1_res = "Uh-Oh!! It's highly likely that this customer is dissatisfied and may stop their subscription!"
-msg_1_act = "Stay calm. Contact them ASAP and find out what their concerns are!"
+msg_1_res = "Uh-Oh!! It's highly likely that this customer won't stick!"
+msg_1_act = "Stay calm. Contact them ASAP, find out what their concerns are, and make them stick!"
 msg_1_add = "Here's a four-leaf clover for you"
 msg_goodluck = "Good Luck!"
 
@@ -38,12 +38,12 @@ st.set_page_config(
     menu_items={
         'Get Help': 'https://github.com/NikkiSatmaka',
         'Report a bug': 'https://github.com/NikkiSatmaka',
-        'About': '# Customer Retainer Operation',
+        'About': '# Sticky Customers Operation',
     }
 )
 
 # URL = "http://127.0.0.1:5000/predict"  # for testing
-URL = "https://telco-retainer-backend.herokuapp.com/predict"  # for deployment
+URL = "https://telco-churn-backend.herokuapp.com/predict"  # for deployment
 
 col1, col2 = st.columns(2)
 with col1:

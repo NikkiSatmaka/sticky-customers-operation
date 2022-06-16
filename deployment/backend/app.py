@@ -43,7 +43,7 @@ def welcome():
     return "<h3>This is the Backend for My Modeling Program</h3>"
 
 @app.route("/predict", methods=["GET", "POST"])
-def predict_churn():
+def predict():
     if request.method == "POST":
         content = request.json
         try:

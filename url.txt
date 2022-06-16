@@ -2,4 +2,4 @@ Dataset:
 https://www.kaggle.com/blastchar/telco-customer-churn
 
 Deployment:
-https://telco-retainer.herokuapp.com/
+https://sticky-customers-operation.herokuapp.com/

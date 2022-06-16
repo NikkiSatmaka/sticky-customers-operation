@@ -4,8 +4,8 @@
 import streamlit as st
 from PIL import Image
 
-TITLE = 'Customer Retainer Operation'
-logo = Image.open('assets/light-night.jpg')
+TITLE = 'Sticky Customers Operation'
+logo = Image.open('assets/sticky-notes.jpg')
 
 st.set_page_config(
     page_title = f"Home - {TITLE}",
@@ -13,7 +13,7 @@ st.set_page_config(
     menu_items={
         'Get Help': 'https://github.com/NikkiSatmaka',
         'Report a bug': 'https://github.com/NikkiSatmaka',
-        'About': '# Customer Retainer Operation',
+        'About': '# Sticky Customers Operation',
     }
 )
 
@@ -36,14 +36,13 @@ st.markdown(
     Therefore, we conduct analysis of our customers' needs and provide the best possible service to them.
     We found that some of our customers are not satisfied with our services, which ended up in them stopping using our services.
 
-    This **Customer Retainer Operation** is conducted to find out what we could improve on our services to make them better, by
+    This **Sticky Customers Operation** is conducted to find out what we could improve on our services to make them better, by
     finding out what our customers are not satisfied with.
 
     Therefore, we will contact these dissatisfied customers, and ask them to provide us with feedback on what we can improve on.
-    We will attempt to retain them as customers for as long as possible.
+    We will attempt to retain them as customers for as long as possible and make them sticky customers.
 
-    Using our state-of-the-art technology, we will be able to find which customers are not satisfied with our services,
-    and more likely to stop using our services.
+    Using our state-of-the-art technology, we will be able to easily find which customers are more likely to stop using our services.
     You can start by contacting these customers first.
 
     Simply navigate to the [Prediction](/Prediction) page using the sidebar on the left and input the information related to the customers.
@@ -51,7 +50,7 @@ st.markdown(
 
     So what are you waiting for?
     Go to the [Prediction](/Prediction) page and start predicting!
-    Ask for feedback and retain our customers!
+    Ask for feedback and make our customers stick!
     """,
     unsafe_allow_html=True
 )
