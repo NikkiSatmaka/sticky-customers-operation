@@ -116,4 +116,4 @@ def predict_churn():
     # return dari get method
     return "<p>Please use the POST method to predict <em>inference model</em></p>"
 
-app.run(debug=True)
+# app.run(debug=True)
